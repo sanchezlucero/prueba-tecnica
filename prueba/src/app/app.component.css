@@ -1,0 +1,104 @@
+.block {
+    display: block;
+}
+
+.styleTitle {
+    color: #fff;
+    font-weight: 600;
+    background: #ffa362 !important;
+}
+
+.sizeTable {
+    width: 100%;
+}
+
+.centerTitle {
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-top: 1em;
+}
+
+.colorTable {
+    background: #FBFBFB !important;
+}
+
+th {
+    color: #fff !important;
+    background: #ffa362 !important;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+.centerButtons {
+    display: flex;
+}
+
+.styleButtonAdd {
+    padding-left: 1em;
+}
+
+ .mat-step-header .mat-step-icon-selected,
+.mat-step-header .mat-step-icon-state-done,
+.mat-step-header .mat-step-icon-state-edit {
+    background-color: #C05F1A !important;
+    color: #fff;
+}
+
+
+
+.stylePrice {
+    text-align: right;
+}
+
+.styleQuantity {
+    text-align: center;
+}
+
+.styleCart {
+    text-align: right;
+    padding-right: 1em;
+}
+
+.next {
+    text-align: right;
+}
+
+.centerAccion {
+    text-align: center;
+}
+
+.styleButtonCart {
+    padding-right: 1em;
+    text-align: left;
+}
+
+.centerButton {
+    text-align: center;
+}
+
+.settings-card {
+    height: 270px;
+    width: 150px;
+}
+
+.mat-card {
+    padding: 16px;
+    padding-top: 12px;
+}
+
+.mat-column-cantidad {
+    text-align: center;
+    padding-top: 0.5em;
+}
+
+.recortar {
+    width: 500px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+::ng-deep .mat-step-header {
+    pointer-events: none !important;
+}
